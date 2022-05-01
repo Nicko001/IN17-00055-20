@@ -1,0 +1,76 @@
+
+body{box-sizing: border-box;
+    margin: 0px;
+     padding:0px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .card{
+        background-color: rgb(34, 138, 107)
+        ;
+        width: 305px;
+        height: 500px;
+        margin: 17px;
+        border-radius: 5%;
+    }
+    .card-image{
+        background-color: rgba(240, 253, 255, 0.493);
+    height:275px ;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    
+    
+    background-size: cover;
+    }
+    .staff-1{
+        background-image:url("c01.jpg");
+    
+    }
+    .staff-2{
+        background-image:url("ho.jpg");
+    
+    }
+    .staff-3{
+        background-image:url("cof6.jpg");
+    
+    }
+    .staff-4{
+        background-image:url("co7.jpg");
+    
+    }
+    .staff-5{
+        background-image:url("f0.jpg");
+    
+    }
+    .staff-6{
+        background-image:url("co3.jpg");
+    
+    }
+    .staff-7{
+        background-image:url("co4.jpg");
+    
+    }
+    .staff-8{
+        background-image:url("di8.jpg");
+    
+    }
+    
+    .card h2,p{
+        display: block;
+        text-align: center;
+    
+        
+    }
+    .card button{
+        background-color: rgb(46, 156, 156);
+        margin-left: 100px;
+        margin-top: 9px;
+        padding: 10px;
+    }
+    .card button a{
+        text-decoration: none;
+    }
